@@ -1,0 +1,85 @@
+.sidebar {
+    flex: 0.3;
+    background-color: var(--slack-color);
+    border-top: 1px solid #49274b;
+    max-width: 260px;
+    color: #fff;
+    overflow-y: scroll;
+    /* min-height: 90vh; */
+}
+
+.sidebar > hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #49274b;
+}
+
+.sidebar_header {
+    display: flex;
+    border-bottom: 1px solid #49274b;
+    padding-bottom: 10px;
+    padding: 13px;
+}
+
+.sidebar_header > .MuiSvgIcon-root {
+    padding: 8px;
+    color: #49274b;
+    font-size: 18px;
+    background-color: #fff;
+    border-radius: 999px;
+}
+
+.sidebar_info {
+    flex: 1;
+}
+
+.sidebar_info > h2{
+    font-size: 15px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.sidebar_info > h3 {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.sidebar_info > h3 > .MuiSvgIcon-root {
+    background-color: transparent;
+    color: green;
+    font-size: 14px;
+    margin-top: 1px;
+    margin-right: 2px;
+}
+
+.sidebarOption {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 2px;
+    font-size: 12px;
+}
+
+.sidebarOption:hover {
+    opacity: 0.9;
+    background-color: #340e36;
+}
+
+.sidebarOption_icon {
+    padding: 10px;
+    font-size: 15px !important;
+}
+
+.sidebarOption_channel {
+    padding: 10px 0;
+}
+
+.sidebarOption_hash {
+    padding: 10px;
+}
+
+.sidebarOption > h3 {
+    font-weight: 500;
+}

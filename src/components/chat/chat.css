@@ -1,0 +1,88 @@
+.chat {
+    flex: 0.7;
+    flex-grow: 1;
+    overflow-y: scroll;
+    padding-bottom: 150px;
+}
+
+.chat_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.chat_headerLeft > h4 {
+    display: flex;
+}
+
+.chat_channelName {
+    display: flex;
+    align-items: center;
+    text-transform: lowercase;
+}
+
+.chat_channelName > .MuiSvgIcon-root {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.chat_headerRight > p{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.chat_headerRight > p > .MuiSvgIcon-root {
+    margin-right: 5px !important;
+    font-size: 16px;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.message > img {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.message_info {
+    padding-left: 10px;
+}
+.message_timestamp {
+    color: grey;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.message_username {
+    text-transform: capitalize;
+}
+.chatInput {
+    border-radius: 20px;
+}
+
+.chatInput > form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.chatInput > form > input {
+    position: fixed;
+    bottom: 30px;
+    width: 70%;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+.chatInput > form > button {
+    display: none !important;
+}
